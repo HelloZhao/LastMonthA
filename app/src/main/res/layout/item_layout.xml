@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="480dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:text="荆泽阳"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="|已实名认证"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginLeft="150dp"
+                android:text="来自线上采访"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/age_tv"
+            android:layout_width="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="20dp"
+            android:background="@color/colorPrimary"
+            android:text="26岁"
+            />
+        <TextView
+            android:id="@+id/work_tv"
+            android:layout_toRightOf="@id/age_tv"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent"
+            android:text="银行"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/des_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="弄上工地施工的工具的佛感觉到佛库更激动个ID欧冠ID欧冠ID供电局欧冠豆腐干库京东方国基多 "
+        />
+
+</LinearLayout>
